@@ -1,27 +1,47 @@
 body {
     background-color: lightblue;
-}
-
-.count{
-    font-size: 50px;
-    padding: 1%;
+    /* justify-content: center; */
 }
 
 .counter-wrapper{
     display: flex;
     flex-direction: column;
+    gap: 15px;
+}
+
+.count{
+    font-size: 50px;
+    padding-left: 5px;
 }
 
 .offset{
     display: flex;
     /* font-size: 20px; */
-    padding: 1%;
+    padding-left: 5px;
 }
 
+input{
+    /* display: flex; */
+    /* font-size: 20px; */
+    gap: 5px;
+}
 
 .buttons{
     display: flex;
-    padding: 1%;
-    gap: 15px;
-    size: 50px;
+    padding-left: 5px;
+    gap: 25px;
+    align-items: center;
+    /* size: 50px; */
+}
+
+.increment{
+    width: 30px;
+}
+
+.decrement{
+    width: 30px;
+}
+
+.reset{
+    width: 100px;
 }
