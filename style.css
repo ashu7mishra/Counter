@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+}
+
+.count{
+    font-size: 50px;
+    padding: 1%;
+}
+
+.counter-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.offset{
+    display: flex;
+    /* font-size: 20px; */
+    padding: 1%;
+}
+
+
+.buttons{
+    display: flex;
+    padding: 1%;
+    gap: 15px;
+    size: 50px;
+}
